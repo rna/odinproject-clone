@@ -1,0 +1,35 @@
+header {
+    width:80vw;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+
+header ul {
+    padding-top: 30px;
+}
+header a {
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: black;
+}
+
+.first-section {
+    width:80vw;
+    margin:0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.large-text {
+    color:#CE973E;
+    font-size:44px;
+}
+
+.second-text {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
