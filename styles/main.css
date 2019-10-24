@@ -1,154 +1,171 @@
 header {
-    width: 80vw;
-    margin: 0 auto;
-    margin-bottom: 50px;
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 h2 {
-    padding: 90px 0 40px 0;
-    font-size: 27px;
+  padding: 90px 0 40px 0;
+  font-size: 27px;
 }
 
 p {
-    font-size: 22px;
-    line-height: 2rem;
+  font-size: 22px;
+  line-height: 2rem;
 }
 
 header ul {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 header a {
-    font-size: 20px;
-    color: grey;
-    text-decoration: none;
-}
-
-header a:hover {
-    color: black;
-}
-
-.first-section {
-    width: 80vw;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.large-text {
-    color:#CE973E;
-    font-size:42px;
-    font-weight: 100;
-    margin-bottom: 50px;
-}
-
-.second-text {
-    margin-bottom: 50px;
-}
-
-.how-works {
-    padding: 0 50px;
-}
-
-.how-works img, .learn-languages img {
-    width: 100%;
-    height: 150px;
-}
-
-figcaption > p:first-child, h2 {
-    color: #363535;
-}
-
-.first-section button, .learn-languages button, .success-stories button {
-    padding: 20px 60px;
-    font-size: 16px;
-}
-
-.how-works > p {
-    width: 40%;
-    margin: 0 auto;
-}
-
-.learn-languages{
-    background: #eeebeb;
-}
-
-.learn-languages .row {
-    margin: 0 auto;
-    width: 60%;
-}
-
-.learn-languages > div:nth-child(3) {
-    width: 40%;
-}
-
-.learn-languages figure {
-    background: #fff;
-    padding: 20px;
-    width:200px
-}
-
-.button-div {
-    padding: 50px 0;
-}
-
-.learn-languages button {
-    background-color: #CC9543;
-}
-
-.learn-languages button:hover {
-    background-color: #e6b367;
-}
-
-.success-stories {
-    background: linear-gradient(to bottom, #fff, #eeebeb);
-}
-.success-stories > div p{
-    text-align: left;
-}
-
-.success-stories img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-.name-link a, footer > div > div:nth-child(2) a {
-    color: #CC9543;
-    text-decoration: none;
-}
-
-.name-link a:hover, .success-stories > p a:hover, footer > div > div a:hover, footer > div > div:nth-child(2) a:hover {
-    color: #000;
-}
-
-.success-stories > p {
-    padding: 30px 0;
-}
-
-.success-stories > p a, footer > div > div a {
-    font-size: 20px;
-    color: #a9a9a9;
-}
-
-.success-stories > p:nth-child(5) {
-    font-size: 38px;
-}
-
-footer {
-    padding: 80px;
+  font-size: 20px;
+  color: grey;
+  text-decoration: none;
 }
 
 footer > div > div a {
-    text-decoration: none;
+  font-size: 20px;
+  color: #a9a9a9;
+  text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {    
-    header nav, footer .logo {
-        display: none;
-    }
+.name-link a {
+  color: #cc9543;
+  text-decoration: none;
+}
 
-    .learn-languages .row, .learn-languages > div:nth-child(3) {
-        width: 100%
-    }
+.success-stories > p a {
+  font-size: 20px;
+  color: #a9a9a9;
+}
+
+header a:hover {
+  color: #000;
+}
+
+footer > div > div:nth-child(2) a {
+  color: #cc9543;
+  text-decoration: none;
+}
+
+footer > div > div a:hover,
+.name-link a:hover,
+.success-stories > p a:hover,
+footer > div > div:nth-child(2) a:hover {
+  color: #000;
+}
+
+.first-section {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.large-text {
+  color: #ce973e;
+  font-size: 42px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+.second-text {
+  margin-bottom: 50px;
+}
+
+.how-works {
+  padding: 0 50px;
+}
+
+.how-works img,
+.learn-languages img {
+  width: 100%;
+  height: 150px;
+}
+
+.how-works > p {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.success-stories > p {
+  padding: 30px 0;
+}
+
+figcaption > p:first-child,
+h2 {
+  color: #363535;
+}
+
+.first-section button,
+.learn-languages button,
+.success-stories button {
+  padding: 20px 60px;
+  font-size: 16px;
+}
+
+.learn-languages {
+  background: #eeebeb;
+}
+
+.learn-languages .row {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.learn-languages > div:nth-child(3) {
+  width: 40%;
+}
+
+.learn-languages figure {
+  background: #fff;
+  padding: 20px;
+  width: 200px;
+}
+
+.button-div {
+  padding: 50px 0;
+}
+
+.learn-languages button {
+  background-color: #cc9543;
+}
+
+.learn-languages button:hover {
+  background-color: #e6b367;
+}
+
+.success-stories {
+  background: linear-gradient(to bottom, #fff, #eeebeb);
+}
+
+.success-stories > div p {
+  text-align: left;
+}
+
+.success-stories img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.success-stories > p:nth-child(5) {
+  font-size: 38px;
+}
+
+footer {
+  padding: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  header nav,
+  footer .logo {
+    display: none;
+  }
+
+  .learn-languages .row,
+  .learn-languages > div:nth-child(3) {
+    width: 100%;
+  }
 }
