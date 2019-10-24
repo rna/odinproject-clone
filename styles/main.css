@@ -5,7 +5,7 @@ header {
 }
 
 h2 {
-    margin: 90px 0 40px 0;
+    padding: 90px 0 40px 0;
     font-size: 27px;
 }
 
@@ -45,11 +45,11 @@ header a:hover {
     margin-bottom: 50px;
 }
 
-.second-section {
+.how-works {
     padding: 0 50px;
 }
 
-.second-section img, .third-section img {
+.how-works img, .learn-languages img {
     width: 100%;
     height: 150px;
 }
@@ -58,20 +58,58 @@ figcaption > p:first-child, h2 {
     color: #363535;
 }
 
-.second-section > p {
+.how-works > p {
     width: 40%;
     margin: 0 auto;
 }
 
-.third-section{
+.learn-languages{
     background: #eeebeb;
 }
 
-.third-section figure {
-    background: #fff;
-    padding: 20px;
+.learn-languages .row {
+    margin: 0 auto;
+    width: 60%;
 }
 
-.fourth-section {
+.learn-languages figure {
+    background: #fff;
+    padding: 20px;
+    width:200px
+}
+
+.learn-languages .button-div {
+    padding: 50px 0;
+}
+
+.learn-languages button {
+    padding: 20px 60px;
+    font-size: 16px;
+    background-color: #CC9543;
+}
+
+.learn-languages button:hover {
+    background-color: #e6b367;
+}
+
+.success-stories {
     background: linear-gradient(to bottom, #fff, #eeebeb);
+}
+.success-stories p{
+    text-align: left;
+}
+
+.success-stories img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.name-link a {
+    color: #CC9543;
+    text-decoration: none;
+}
+
+.name-link a:hover {
+    color: black;
 }
