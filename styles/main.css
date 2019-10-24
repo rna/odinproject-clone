@@ -1,6 +1,6 @@
 header {
-    width:80vw;
-    margin:0 auto;
+    width: 80vw;
+    margin: 0 auto;
     margin-bottom: 50px;
 }
 
@@ -17,6 +17,7 @@ p {
 header ul {
     padding-top: 30px;
 }
+
 header a {
     font-size: 20px;
     color: grey;
@@ -28,8 +29,8 @@ header a:hover {
 }
 
 .first-section {
-    width:80vw;
-    margin:0 auto;
+    width: 80vw;
+    margin: 0 auto;
     margin-bottom: 50px;
     text-align: center;
 }
