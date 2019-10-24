@@ -58,6 +58,11 @@ figcaption > p:first-child, h2 {
     color: #363535;
 }
 
+.first-section button, .learn-languages button, .success-stories button {
+    padding: 20px 60px;
+    font-size: 16px;
+}
+
 .how-works > p {
     width: 40%;
     margin: 0 auto;
@@ -72,19 +77,21 @@ figcaption > p:first-child, h2 {
     width: 60%;
 }
 
+.learn-languages > div:nth-child(3) {
+    width: 40%;
+}
+
 .learn-languages figure {
     background: #fff;
     padding: 20px;
     width:200px
 }
 
-.learn-languages .button-div {
+.button-div {
     padding: 50px 0;
 }
 
 .learn-languages button {
-    padding: 20px 60px;
-    font-size: 16px;
     background-color: #CC9543;
 }
 
@@ -95,7 +102,7 @@ figcaption > p:first-child, h2 {
 .success-stories {
     background: linear-gradient(to bottom, #fff, #eeebeb);
 }
-.success-stories p{
+.success-stories > div p{
     text-align: left;
 }
 
@@ -105,11 +112,42 @@ figcaption > p:first-child, h2 {
     border-radius: 50%;
 }
 
-.name-link a {
+.name-link a, footer > div > div:nth-child(2) a {
     color: #CC9543;
     text-decoration: none;
 }
 
-.name-link a:hover {
-    color: black;
+.name-link a:hover, .success-stories > p a:hover, footer > div > div a:hover, footer > div > div:nth-child(2) a:hover {
+    color: #000;
+}
+
+.success-stories > p {
+    padding: 30px 0;
+}
+
+.success-stories > p a, footer > div > div a {
+    font-size: 20px;
+    color: #a9a9a9;
+}
+
+.success-stories > p:nth-child(5) {
+    font-size: 38px;
+}
+
+footer {
+    padding: 80px;
+}
+
+footer > div > div a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {    
+    header nav, footer .logo {
+        display: none;
+    }
+
+    .learn-languages .row, .learn-languages > div:nth-child(3) {
+        width: 100%
+    }
 }
