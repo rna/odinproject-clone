@@ -4,6 +4,16 @@ header {
     margin-bottom: 50px;
 }
 
+h2 {
+    margin: 90px 0 40px 0;
+    font-size: 27px;
+}
+
+p {
+    font-size: 22px;
+    line-height: 2rem;
+}
+
 header ul {
     padding-top: 30px;
 }
@@ -26,10 +36,42 @@ header a:hover {
 
 .large-text {
     color:#CE973E;
-    font-size:44px;
+    font-size:42px;
+    font-weight: 100;
+    margin-bottom: 50px;
 }
 
 .second-text {
-    font-size: 22px;
     margin-bottom: 50px;
+}
+
+.second-section {
+    padding: 0 50px;
+}
+
+.second-section img, .third-section img {
+    width: 100%;
+    height: 150px;
+}
+
+figcaption > p:first-child, h2 {
+    color: #363535;
+}
+
+.second-section > p {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.third-section{
+    background: #eeebeb;
+}
+
+.third-section figure {
+    background: #fff;
+    padding: 20px;
+}
+
+.fourth-section {
+    background: linear-gradient(to bottom, #fff, #eeebeb);
 }
