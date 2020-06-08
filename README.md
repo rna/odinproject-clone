@@ -2,7 +2,7 @@
 This project uses our customized CSS grid framework to clone the odin project home page
 
 ### Screenshot
-![Odin Project Homepage](https://i.imgur.com/WTMks1m.png)
+![Odin Project Homepage](https://i.imgur.com/OGR6I9h.png)
 
 ### Built With
 - HTML5
